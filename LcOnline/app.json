@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/custMgr/custMgr",
+    "pages/mine/mine",
+    "pages/register/register",
+    "pages/finishRegister/finishRegister",
+    "pages/login/login",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "EasyManage",
+    "navigationBarTextStyle":"white",
+    "backgroundColorTop":"#1296db",
+    "backgroundColorBottom":"#1296db"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/nav_home_b.png",
+        "selectedIconPath": "imgs/nav_home_f.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/custMgr/custMgr",
+        "iconPath":"imgs/nav_mgr_b.png",
+        "selectedIconPath":"imgs/nav_mgr_f.png",
+        "text": "管理"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "imgs/nav_mine_b.png",
+        "selectedIconPath": "imgs/nav_mine_f.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
